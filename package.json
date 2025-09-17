@@ -1,0 +1,80 @@
+{
+  "name": "vim-cheatsheet",
+  "displayName": "Vim Cheat Sheet",
+  "description": "Quick access to Vim commands and shortcuts in 8 languages with instant search",
+  "version": "1.0.0",
+  "publisher": "xonxoon",
+  "author": {
+    "name": "Wonjoon Lee",
+    "email": "xonxoon@example.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wnjoon/vscode-vm-cheet-sheet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wnjoon/vscode-vm-cheet-sheet/issues"
+  },
+  "homepage": "https://github.com/wnjoon/vscode-vm-cheet-sheet#readme",
+  "keywords": [
+    "vim",
+    "cheatsheet",
+    "commands",
+    "quick-reference",
+    "multilingual",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Other",
+    "Education",
+    "Keymaps"
+  ],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vim-cheatsheet.show",
+        "title": "Show Vim Cheat Sheet"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "vim-cheatsheet.show",
+        "key": "ctrl+k v",
+        "mac": "cmd+k v"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Vim Cheat Sheet",
+      "properties": {
+        "vim-cheatsheet.language": {
+          "type": "string",
+          "default": "en",
+          "enum": ["en", "ko", "zh_cn", "ja", "es", "de", "fr", "pt"],
+          "enumDescriptions": ["English", "한국어", "简体中文", "日本語", "Español", "Deutsch", "Français", "Português"],
+          "description": "Display language for Vim commands"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.74.0",
+    "@types/node": "16.x",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.0"
+  }
+}

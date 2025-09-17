@@ -1,0 +1,1105 @@
+{
+  "commands": [
+    {
+      "keys": ":h[elp]",
+      "description": "Stichwort - Hilfe zum Schlüsselwort öffnen",
+      "category": "Global"
+    },
+    {
+      "keys": ":sav[eas]",
+      "description": "Datei - Speichern unter",
+      "category": "Global"
+    },
+    {
+      "keys": ":clo[se]",
+      "description": "- Ansicht schließen",
+      "category": "Global"
+    },
+    {
+      "keys": ":ter[minal]",
+      "description": "- Ein Terminal Fenster öffnen",
+      "category": "Global"
+    },
+    {
+      "keys": "K",
+      "description": "- Handbuchseite für das Wort unter dem Cursor öffnen",
+      "category": "Global"
+    },
+    {
+      "keys": "h",
+      "description": "- Cursor ein Zeichen nach links bewegen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "j",
+      "description": "- Cursor eine Zeile nach unten bewegen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "k",
+      "description": "- Cursor eine Zeile nach oben bewegen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "l",
+      "description": "- Cursor ein Zeichen nach rechts bewegen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "gj",
+      "description": "- move cursor down (multi-line text)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "gk",
+      "description": "- move cursor up (multi-line text)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "H",
+      "description": "- Zum Anfang des Bildschirms springen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "M",
+      "description": "- Zur Mitte des Bildschirms springen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "L",
+      "description": "- Zum Ende des Bildschirms springen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "w",
+      "description": "- Springe vorwärts zum Wortanfang",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "W",
+      "description": "- Springe vorwärts zum Wortanfang (Wort kann Interpunktion enthalten)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "e",
+      "description": "- Springe vorwärts zum Wortende",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "E",
+      "description": "- Springe vorwärts zum Wortende (Wort kann Interpunktion enthalten)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "b",
+      "description": "- Springe rückwärts zum Wortanfang",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "B",
+      "description": "- Springe rückwärts zum Wortanfang (Wort kann Interpunktion enthalten)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "ge",
+      "description": "- Springe rückwärts zum Wortende",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "gE",
+      "description": "- Springe rückwärts zum Wortende (Wort kann Interpunktion enthalten)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "%",
+      "description": "- Zum entsprechenden Zeichen springen. (Unterstützt werden: '()', '{}', '[]' - mehr dazu mittels :h_matchpairs in vim)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "0",
+      "description": "- Springe zum Zeilenanfang",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "^",
+      "description": "- Springe zum ersten Zeichen der Zeile",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "$",
+      "description": "- Springe zum Zeilenende",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "g_",
+      "description": "- Springe zum letzten Nicht-Leerzeichen der Linie",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "gg",
+      "description": "- Springe zum Anfang des Dokuments",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "G",
+      "description": "- Springe zum Ende des Dokuments",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "5gg",
+      "description": "or 5G - Springe zu Zeile 5",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "gd",
+      "description": "- move to local declaration",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "gD",
+      "description": "- move to global declaration",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "fx",
+      "description": "- Springe zum nächsten 'x' auf der Linie",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "tx",
+      "description": "- Springe vor das nächste 'x' auf der Linie",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Fx",
+      "description": "- Springe zum vorherigen 'x' auf der Linie",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Tx",
+      "description": "- Springe hinter das vorherige 'x' auf der Linie",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": ";",
+      "description": "- Wiederhole die letzte Bewegung mittels f, t, F oder T",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": ",",
+      "description": "- Wiederhole die letzte Bewegung mittels f, t, F oder T in entgegengesetzer Richtung",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "}",
+      "description": "- Springe zum nächsten Paragraphen (oder Funktion/Block)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "{",
+      "description": "- Springe zum vorherigen Paragraphen (oder Funktion/Block)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "zz",
+      "description": "- Zentriere den Cursor",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "zt",
+      "description": "- position cursor on top of the screen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "zb",
+      "description": "- position cursor on bottom of the screen",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ e - Bewege den Bildschirm eine Zeile runter (ohne den Cursor zu verschieben)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ y - Bewege den Bildschirm eine Zeile hoch (ohne den Cursor zu verschieben)",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ b - Springe eine Bildschirmseite zurück",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ f - Springe eine Bildschirmseite weiter",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - Springe eine halbe Bildschirmseite weiter",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ u - Springe eine halbe Bildschirmseite zurück",
+      "category": "Cursor-Bewegungen"
+    },
+    {
+      "keys": "i",
+      "description": "- Einfügen vor dem Cursor",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "I",
+      "description": "- Einfügen am Zeilenanfang",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "a",
+      "description": "- Anfügen hinter dem Cursor",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "A",
+      "description": "- Anfügen am Zeilenende",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "o",
+      "description": "- Einfügen in einer neuen Zeile, unterhalb der aktuellen Zeile",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "O",
+      "description": "- Einfügen in einer neuen Zeile, oberhalb der aktuellen Zeile",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "ea",
+      "description": "- Anfügen am Wortende",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ h - Entferne ein Zeichen vor dem Cursor im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w - Entferne ein Wort vor dem Cursor im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ j - Starte eine neue Zeile im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ t - Zeile um eine Einheit einrücken (nach rechts verschieben) im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - Zeile um eine Einheit ausrücken (nach links verschieben) im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ n - Nächstes passendes Wort vor dem Cursor einfügen (auto-complete) im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ p - Vorheriges passendes Wort vor dem Cursor einfügen (auto-complete) im Eingabe-Modus",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ rx - Füge den Inhalt von Register x ein",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ox - Wechseln Sie vorübergehend in den Normalmodus, um nur einen Normalmodus Befehl -x zu verwenden.",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - Eingabe-Modus verlassen",
+      "category": "Eingabe-Modus - Text einfügen/anfügen"
+    },
+    {
+      "keys": "r",
+      "description": "- Einzelnes Zeichen ersetzen",
+      "category": "Editieren"
+    },
+    {
+      "keys": "R",
+      "description": "- replace more than one character, until ESC is pressed.",
+      "category": "Editieren"
+    },
+    {
+      "keys": "J",
+      "description": "- Die Zeile unterhalb zur aktuellen Zeile hinzufügen",
+      "category": "Editieren"
+    },
+    {
+      "keys": "gJ",
+      "description": "- Die Zeile unterhalb zur aktuellen Zeile ohne Abstand hinzufügen",
+      "category": "Editieren"
+    },
+    {
+      "keys": "gwip",
+      "description": "- Absatz neu umbrechen",
+      "category": "Editieren"
+    },
+    {
+      "keys": "g~",
+      "description": "- Groß-/Kleinschreibung umschalten bis zur Bewegung",
+      "category": "Editieren"
+    },
+    {
+      "keys": "gu",
+      "description": "- In Kleinschreibung ändern bis zur Bewegung",
+      "category": "Editieren"
+    },
+    {
+      "keys": "gU",
+      "description": "- In Großschreibung ändern bis zur Bewegung",
+      "category": "Editieren"
+    },
+    {
+      "keys": "cc",
+      "description": "- Ersetzen der kompletten Zeile",
+      "category": "Editieren"
+    },
+    {
+      "keys": "c$",
+      "description": "or C - Ersetzen bis zum Zeilenende",
+      "category": "Editieren"
+    },
+    {
+      "keys": "ciw",
+      "description": "- Ersetzen des gesamten Worts",
+      "category": "Editieren"
+    },
+    {
+      "keys": "cw",
+      "description": "or ce - Ersetzen bis zum Ende des Worts",
+      "category": "Editieren"
+    },
+    {
+      "keys": "s",
+      "description": "- Zeichen löschen und ersetzen",
+      "category": "Editieren"
+    },
+    {
+      "keys": "S",
+      "description": "- Zeile löschen und ersetzen (wie cc)",
+      "category": "Editieren"
+    },
+    {
+      "keys": "xp",
+      "description": "- Zwei Zeichen vertauschen (löschen und einfügen)",
+      "category": "Editieren"
+    },
+    {
+      "keys": "u",
+      "description": "- Änderung rückgängig",
+      "category": "Editieren"
+    },
+    {
+      "keys": "U",
+      "description": "- Letzte geänderte Zeile wiederherstellen (rückgängig machen)",
+      "category": "Editieren"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ r - Wiederholen der letzten, rückgängig gemachten, Änderung",
+      "category": "Editieren"
+    },
+    {
+      "keys": ".",
+      "description": "- Letztes Kommando wiederholen",
+      "category": "Editieren"
+    },
+    {
+      "keys": "v",
+      "description": "- Visuellen Modus starten, Zeilen markieren, Kommando ausführen (wie y-kopieren)",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "V",
+      "description": "- Zeilenweise Visuellen Modus starten",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "o",
+      "description": "- Springe zum anderen Ende der Markierung",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ v - Blockweise Visuellen Modus starten",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "O",
+      "description": "- Springe zur anderen Blockecke",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "aw",
+      "description": "- Wort markieren",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "ab",
+      "description": "- Block mit ()",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "aB",
+      "description": "- Block mit {}",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "at",
+      "description": "- Block mit <>",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "ib",
+      "description": "- Innerer Block mit ()",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "iB",
+      "description": "- Innerer Block mit {}",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "it",
+      "description": "- Innerer Block mit <>",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - Visuellen Modus verlassen",
+      "category": "Text markieren (Visueller Modus)"
+    },
+    {
+      "keys": ">",
+      "description": "- Text nach rechts rücken",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": "<",
+      "description": "- Text nach links rücken",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": "y",
+      "description": "- Markierten Text kopieren",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": "d",
+      "description": "- Markierten Text löschen",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": "~",
+      "description": "- Groß-/Kleinschreibung umschalten",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": "u",
+      "description": "- Markierten Text in Kleinschreibung ändern",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": "U",
+      "description": "- Markierten Text in Großschreibung ändern",
+      "category": "Kommandos im Visuellen Modus"
+    },
+    {
+      "keys": ":reg[isters]",
+      "description": "- Zeige den Inhalt der Register",
+      "category": "Register"
+    },
+    {
+      "keys": "\"xy",
+      "description": "- Kopiere in das Register x",
+      "category": "Register"
+    },
+    {
+      "keys": "\"xp",
+      "description": "- Füge den Inhalt von Register x ein",
+      "category": "Register"
+    },
+    {
+      "keys": "\"+y",
+      "description": "- Kopiere in die System Zwischenablage",
+      "category": "Register"
+    },
+    {
+      "keys": "\"+p",
+      "description": "- Füge den Inhalt von der System Zwischenablage ein",
+      "category": "Register"
+    },
+    {
+      "keys": ":marks",
+      "description": "- Liste alle Markierungen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "ma",
+      "description": "- Erstelle die Markierung 'a' an dieser Position",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "`a",
+      "description": "- Springe zur Markierung 'a'",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "y`a",
+      "description": "- Kopiere bis zur Position der Markierung 'a'",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "`0",
+      "description": "- Zur Position gehen an der Vim zuvor beendet wurde",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "`\"",
+      "description": "- Zur Position gehen an der beim letzen Mal gearbeitet wurde",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "`.",
+      "description": "- Zur Position der letzten Änderung gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "``",
+      "description": "- Zur Position vor dem letzten Sprung gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": ":ju[mps]",
+      "description": "- Liste alle Sprünge",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ i - Zur neueren Position in der Sprungliste gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ o - Zur älteren Position in der Sprungliste gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": ":changes",
+      "description": "- Liste alle Änderungen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "g,",
+      "description": "- Zur neueren Position in der Änderungsliste gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "g;",
+      "description": "- Zur älteren Position in der Änderungsliste gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ] - Zum Schlagwort unter dem Cursor gehen",
+      "category": "Markierungen und Positionen"
+    },
+    {
+      "keys": "qa",
+      "description": "- Starte Aufnahme 'a'",
+      "category": "Makros"
+    },
+    {
+      "keys": "q",
+      "description": "- Stoppe die Aufnahme",
+      "category": "Makros"
+    },
+    {
+      "keys": "@a",
+      "description": "- Führe das Makro 'a' aus",
+      "category": "Makros"
+    },
+    {
+      "keys": "@@",
+      "description": "- Führe das letzte Makro nochmals aus",
+      "category": "Makros"
+    },
+    {
+      "keys": "yy",
+      "description": "- Zeile kopieren",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "2yy",
+      "description": "- 2 Zeilen kopieren",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "yw",
+      "description": "- Zeichen des Worts unterm Cursor bis zum nächsten Wort kopieren.",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "yiw",
+      "description": "- Wort kopieren",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "yaw",
+      "description": "- Zeichen des Worts unterm Cursor und die Abstände davor oder danach kopieren",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "y$",
+      "description": "or Y - bis Zeilenende kopieren",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "p",
+      "description": "- Zwischenablage nach dem Cursor einfügen",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "P",
+      "description": "- Zwischenablage vor dem Cursor einfügen",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "gp",
+      "description": "- put (paste) the clipboard after cursor and leave cursor after the new text",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "gP",
+      "description": "- put (paste) before cursor and leave cursor after the new text",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "dd",
+      "description": "- Löschen (Ausschneiden) der aktuellen Zeile",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "2dd",
+      "description": "- Löschen (Ausschneiden) von 2 Zeilen (aktuelle und folgende)",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "dw",
+      "description": "- Zeichen des Worts unterm Cursor bis zum nächsten Wort löschen (ausschneiden).",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "diw",
+      "description": "- Wort löschen (ausschneiden)",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": "daw",
+      "description": "- Zeichen des Worts unterm Cursor und die Abstände davor oder danach löschen (ausschneiden)",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": ":3,5d",
+      "description": "- delete lines starting from 3 to 5",
+      "category": "Kopieren/Auschneiden und Einfügen"
+    },
+    {
+      "keys": ">>",
+      "description": "- Zeile um eine Einheit einrücken (nach rechts verschieben)",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "<<",
+      "description": "- Zeile um eine Einheit ausrücken (nach links verschieben)",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": ">%",
+      "description": "- Block mit () oder {} einrücken (Cursor auf Klammer)",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "<%",
+      "description": "- de-indent a block with () or {} (cursor on brace)",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": ">ib",
+      "description": "- Innerer Block mit () einrücken",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": ">at",
+      "description": "- Block mit <> einrücken",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "3==",
+      "description": "- 3 Zeilen neu ausrichten",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "=%",
+      "description": "- Block mit () oder {} neu ausrichten (Cursor auf Klammer)",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "=iB",
+      "description": "- Inner Block mit {} neu ausrichten",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "gg=G",
+      "description": "- Gesamter Buffer neu ausrichten",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": "]p",
+      "description": "- Einfügen und analog zur aktuellen Zeile einrücken",
+      "category": "Text einrücken"
+    },
+    {
+      "keys": ":w",
+      "description": "- Datei schreiben, aber nicht schließen",
+      "category": "Speichern und Beenden"
+    },
+    {
+      "keys": ":w",
+      "description": "!sudo tee % - Schreibe die aktuelle Datei mit sudo",
+      "category": "Speichern und Beenden"
+    },
+    {
+      "keys": ":wq",
+      "description": "or :x or ZZ - Datei schreiben und schließen",
+      "category": "Speichern und Beenden"
+    },
+    {
+      "keys": ":q",
+      "description": "- Datei schließen (schlägt fehl bei ungespeicherten Änderungen)",
+      "category": "Speichern und Beenden"
+    },
+    {
+      "keys": ":q!",
+      "description": "or ZQ - Datei schließen und Änderungen verwerfen",
+      "category": "Speichern und Beenden"
+    },
+    {
+      "keys": ":wqa",
+      "description": "- Datei in allen Tabs schreiben und schließen",
+      "category": "Speichern und Beenden"
+    },
+    {
+      "keys": "/pattern",
+      "description": "- Muster suchen (vorwärts)",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": "?pattern",
+      "description": "- Muster suchen (rückwärts)",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": "\\vpattern",
+      "description": "- 'very magic' pattern: nicht-alphanummerische Charakter werden als regex-Symbole interpretiert (kein Escaping benötigt)",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": "n",
+      "description": "- Suche wiederholen (selbe Richtung)",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": "N",
+      "description": "- Suche wiederholen (entgegengesetzte Richtung)",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": ":%s/old/new/g -",
+      "description": "Muster im gesamten Dokument ersetzen",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": ":%s/old/new/gc -",
+      "description": "Muster im gesamten Dokument ersetzen, mit Bestätigung",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": ":noh[lsearch]",
+      "description": "- Entferne alle Markierungen von Such-Treffern",
+      "category": "Suchen und Ersetzen"
+    },
+    {
+      "keys": ":vim[grep] /pattern/ {`{file}`} -",
+      "description": "Muster suchen in mehreren Dateien",
+      "category": "Suchen in mehreren Dateien"
+    },
+    {
+      "keys": ":tabnew or :tabnew {page.words.file} -",
+      "description": "Datei in neuem Tab öffnen",
+      "category": "Tabs"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wT - Aktuell geteiltes Fenster in eigenen Tab bewegen",
+      "category": "Tabs"
+    },
+    {
+      "keys": "gt",
+      "description": "or :tabn[ext] - Zum nächsten Tab springen",
+      "category": "Tabs"
+    },
+    {
+      "keys": "gT",
+      "description": "or :tabp[revious] - Zum vorigen Tab springen",
+      "category": "Tabs"
+    },
+    {
+      "keys": "#gt",
+      "description": "- Zum Tab mit der Nummer # springen",
+      "category": "Tabs"
+    },
+    {
+      "keys": ":tabm[ove]",
+      "description": "# - Aktuellen Tab an #te Position bewegen (indiziert von 0 an)",
+      "category": "Tabs"
+    },
+    {
+      "keys": ":tabc[lose]",
+      "description": "- Aktuellen Tab, inklusiver aller Fenster, schließen",
+      "category": "Tabs"
+    },
+    {
+      "keys": ":tabo[nly]",
+      "description": "- Alle Tabs schließen, außer dem Aktuellen",
+      "category": "Tabs"
+    },
+    {
+      "keys": ":tabdo",
+      "description": "command - Führt command für alle Tabs aus (z.B.: :tabdo q - Schließt alle geöffneten Tabs)",
+      "category": "Tabs"
+    },
+    {
+      "keys": ":e[dit]",
+      "description": "Datei - Datei im neuen Buffer bearbeiten",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":bn[ext] -",
+      "description": "Springe zum nächsten Buffer",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":bp[revious] -",
+      "description": "Springe zum vorherigen Buffer",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":bd[elete]",
+      "description": "- Buffer löschen (Datei schließen)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":b[uffer]#",
+      "description": "- Springe zum Buffer mit Index #",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":b[uffer]",
+      "description": "file - Springe zum Buffer einer Datei",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":ls",
+      "description": "or :buffers - Alle offenen Buffer auflisten",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":sp[lit]",
+      "description": "Datei - Datei im neuen Buffer bearbeiten und Fenster horizontal teilen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":vs[plit]",
+      "description": "Datei - Datei im neuen Buffer bearbeiten und Fenster vertikal teilen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":vert[ical]",
+      "description": "ba[ll] - Alle Buffer als vertikale Fenster bearbeiten",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": ":tab",
+      "description": "ba[ll] - Alle Buffer als Tabs bearbeiten",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ws - Fenster horizontal teilen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wv - Fenster vertikal teilen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ww - Fenster wechseln",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wq - Fenster schließen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wx - Aktuelles Fenster mit nächstem tauschen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w= - Alle Fenster gleich gross machen",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wh - Cursor in das linke Fenster (vertikale Teilung)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wl - Cursor in das rechte Fenster (vertikale Teilung)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wj - Cursor in das untere Fenster (horizontale Teilung)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wk - Cursor in das obere Fenster (horizontale Teilung)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wH - make current window full height at far left (leftmost vertical window)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wL - make current window full height at far right (rightmost vertical window)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wJ - make current window full width at the very bottom (bottommost horizontal window)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wK - make current window full width at the very top (topmost horizontal window)",
+      "category": "Arbeit mit mehreren Dateien"
+    },
+    {
+      "keys": "zf",
+      "description": "- Fold definieren bis zur Bewegung",
+      "category": "Diff"
+    },
+    {
+      "keys": "zd",
+      "description": "- Fold unter dem Cursor löschen",
+      "category": "Diff"
+    },
+    {
+      "keys": "za",
+      "description": "- Fold unter dem Cursor umschalten",
+      "category": "Diff"
+    },
+    {
+      "keys": "zo",
+      "description": "- Fold unter dem Cursor öffnen",
+      "category": "Diff"
+    },
+    {
+      "keys": "zc",
+      "description": "- Fold unter dem Cursor schliessen",
+      "category": "Diff"
+    },
+    {
+      "keys": "zr",
+      "description": "- Alle Folds um ein Level öffnen (reduzieren)",
+      "category": "Diff"
+    },
+    {
+      "keys": "zm",
+      "description": "- Alle Folds um ein Level schliessen",
+      "category": "Diff"
+    },
+    {
+      "keys": "zi",
+      "description": "- Folding Funktionalität umschalten",
+      "category": "Diff"
+    },
+    {
+      "keys": "]c",
+      "description": "- Springe zum Start der nächsten Änderung",
+      "category": "Diff"
+    },
+    {
+      "keys": "[c",
+      "description": "- Springe zum Start der vorherigen Änderung",
+      "category": "Diff"
+    },
+    {
+      "keys": "do",
+      "description": "or :diffg[et] - Hole den Unterschied (vom anderen Buffer)",
+      "category": "Diff"
+    },
+    {
+      "keys": "dp",
+      "description": "or :diffpu[t] - Gebe den Unterschied (an den anderen Buffer)",
+      "category": "Diff"
+    },
+    {
+      "keys": ":diffthis",
+      "description": "- Mache das aktuelle Fenster Teil vom Diff",
+      "category": "Diff"
+    },
+    {
+      "keys": ":dif[fupdate]",
+      "description": "- Aktualisiere den Diff",
+      "category": "Diff"
+    },
+    {
+      "keys": ":diffo[ff]",
+      "description": "- Schalte den Diff Modus für das aktuelle Fenster aus",
+      "category": "Diff"
+    }
+  ],
+  "lastUpdated": "2025-09-17T05:57:10.294Z"
+}

@@ -1,0 +1,1105 @@
+{
+  "commands": [
+    {
+      "keys": ":h[elp]",
+      "description": "palabra_clave - abrir ayuda para palabra clave",
+      "category": "Global"
+    },
+    {
+      "keys": ":sav[eas]",
+      "description": "archivo - guardar archivo como",
+      "category": "Global"
+    },
+    {
+      "keys": ":clo[se]",
+      "description": "- cerrar archivo actual",
+      "category": "Global"
+    },
+    {
+      "keys": ":ter[minal]",
+      "description": "- abre una ventana de terminal",
+      "category": "Global"
+    },
+    {
+      "keys": "K",
+      "description": "- abrir página del manual (man page) de la palabra bajo el cursor",
+      "category": "Global"
+    },
+    {
+      "keys": "h",
+      "description": "- mover el cursor hacia la izquierda",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "j",
+      "description": "- mover el cursor hacia abajo",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "k",
+      "description": "- mover el cursor hacia arriba",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "l",
+      "description": "- mover el cursor hacia la derecha",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "gj",
+      "description": "- mover el cursor hacia abajo (texto multilínea)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "gk",
+      "description": "- mover el cursor hacia arriba (texto multilínea)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "H",
+      "description": "- moverse hacia la parte superior de la pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "M",
+      "description": "- moverse hacia el centro de la pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "L",
+      "description": "- moverse hacia la parte inferior de la pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "w",
+      "description": "- saltar hasta el inicio de la siguiente palabra",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "W",
+      "description": "- saltar hasta el inicio de la siguiente palabra (incluso con puntuación)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "e",
+      "description": "- saltar hasta el final de la siguiente palabra",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "E",
+      "description": "- saltar hasta el final de la siguiente palabra (incluso con puntuación)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "b",
+      "description": "- regresar al inicio de una palabra",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "B",
+      "description": "- regresar al inicio de una palabra (incluso con puntuación)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "ge",
+      "description": "- saltar hacia atrás hasta el final de una palabra",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "gE",
+      "description": "- saltar hacia atrás hasta el final de una palabra (las palabras pueden contener puntuación)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "%",
+      "description": "- ir al carácter asociado (pares por defecto: '()', '{}', '[]' - usar :h matchpairs en vim para más información)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "0",
+      "description": "- saltar al inicio de la línea",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "^",
+      "description": "- saltar al primer carácter no-espacio de la línea",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "$",
+      "description": "- saltar al final de la línea",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "g_",
+      "description": "- saltar al último carácter no-espacio de la línea",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "gg",
+      "description": "- saltar a la primera línea del documento",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "G",
+      "description": "- saltar a la última línea del documento",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "5gg",
+      "description": "or 5G - saltar a la línea 5",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "gd",
+      "description": "- saltar a la declaración local",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "gD",
+      "description": "- saltar a la declaración global",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "fx",
+      "description": "- saltar a la siguiente ocurrencia del carácter x",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "tx",
+      "description": "- saltar a la ocurrencia previa del carácter x",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Fx",
+      "description": "- saltar a la aparición anterior del carácter x",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Tx",
+      "description": "- saltar a después de la aparición anterior del carácter x",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": ";",
+      "description": "- repetir el movimiento anterior de f, t, F o T",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": ",",
+      "description": "- repetir el movimiento anterior de f, t, F o T, hacia atrás",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "}",
+      "description": "- saltar al párrafo siguiente (o función/bloque, en modo edición)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "{",
+      "description": "- saltar al párrafo previo (o función/bloque, en modo edición)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "zz",
+      "description": "- desplazar el cursor (sin moverlo) hacia el centro de la pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "zt",
+      "description": "- desplazar el cursor (sin moverlo) hacia la parte superior de la pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "zb",
+      "description": "- desplazar el cursor (sin moverlo) hacia la parte inferior de la pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ e - mover la pantalla hacia abajo una línea (sin mover el cursor)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ y - mover la pantalla una línea hacia arriba (sin mover el cursor)",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ b - retroceder una pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ f - avanzar una pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - avanzar cursor media pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ u - retroceder cursor media pantalla",
+      "category": "Mover el cursor"
+    },
+    {
+      "keys": "i",
+      "description": "- insertar antes del cursor",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "I",
+      "description": "- insertar al inicio de la línea",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "a",
+      "description": "- insertar después del cursor",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "A",
+      "description": "- insertar al final de la línea",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "o",
+      "description": "- insertar una nueva linea debajo de la línea actual",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "O",
+      "description": "- insertar una nueva línea encima de la línea actual",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "ea",
+      "description": "- insertar después de palabra",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ h - eliminar el carácter antes del cursor durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w - eliminar palabra antes del cursor durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ j - comenzar una nueva línea durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ t - sangrar (mover a la derecha) línea un ancho de cambio durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - desangrar (mover a la izquierda) línea un ancho de turno durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ n - insertar (auto completar) la siguiente coincidencia antes del cursor durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ p - insertar (auto completar) coincidencia anterior antes del cursor durante el modo de inserción",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ rx - insertar el contenido del registro x",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ox - ingresar temporalmente al modo normal para emitir un comando de modo normal x.",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - salir del modo insertar",
+      "category": "Modo insertar - insertar/agregar texto"
+    },
+    {
+      "keys": "r",
+      "description": "- reemplazar un carácter",
+      "category": "Editar"
+    },
+    {
+      "keys": "R",
+      "description": "- reemplazar más de un carácter, hasta que se presione ESC.",
+      "category": "Editar"
+    },
+    {
+      "keys": "J",
+      "description": "- juntar siguiente línea con la actual",
+      "category": "Editar"
+    },
+    {
+      "keys": "gJ",
+      "description": "- juntar siguiente línea con la actual sin espacio entre ellas",
+      "category": "Editar"
+    },
+    {
+      "keys": "gwip",
+      "description": "- aplicar formato en párrafo",
+      "category": "Editar"
+    },
+    {
+      "keys": "g~",
+      "description": "- alternar mayúsculas/minúsculas hasta movimiento",
+      "category": "Editar"
+    },
+    {
+      "keys": "gu",
+      "description": "- cambiar a minúsculas hasta movimiento",
+      "category": "Editar"
+    },
+    {
+      "keys": "gU",
+      "description": "- cambiar a mayúsculas hasta movimiento",
+      "category": "Editar"
+    },
+    {
+      "keys": "cc",
+      "description": "- cambiar (reemplazar) toda la línea",
+      "category": "Editar"
+    },
+    {
+      "keys": "c$",
+      "description": "or C - cambiar (reemplazar) hasta el final de la línea",
+      "category": "Editar"
+    },
+    {
+      "keys": "ciw",
+      "description": "- cambiar (reemplazar) palabra completa",
+      "category": "Editar"
+    },
+    {
+      "keys": "cw",
+      "description": "or ce - cambiar (reemplazar) una palabra",
+      "category": "Editar"
+    },
+    {
+      "keys": "s",
+      "description": "- eliminar carácter y reemplazar texto",
+      "category": "Editar"
+    },
+    {
+      "keys": "S",
+      "description": "- eliminar línea y reemplazar texto (igual que cc)",
+      "category": "Editar"
+    },
+    {
+      "keys": "xp",
+      "description": "- transponer dos letras (suprimir y pegar)",
+      "category": "Editar"
+    },
+    {
+      "keys": "u",
+      "description": "-  deshacer",
+      "category": "Editar"
+    },
+    {
+      "keys": "U",
+      "description": "- deshacer completamente la última línea modificada",
+      "category": "Editar"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ r - rehacer",
+      "category": "Editar"
+    },
+    {
+      "keys": ".",
+      "description": "- repetir el último comando",
+      "category": "Editar"
+    },
+    {
+      "keys": "v",
+      "description": "- iniciar modo visual, seleccionar lineas y ejecutar un comando (p. ej. y-yank)",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "V",
+      "description": "- iniciar modo visual seleccionando líneas completas (visual line mode)",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "o",
+      "description": "- moverse al otro extremo de la zona seleccionada",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ v - iniciar modo visual de bloque (visual block mode)",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "O",
+      "description": "- moverse a la otra esquina del bloque",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "aw",
+      "description": "- seleccionar una palabra",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "ab",
+      "description": "- un bloque con ()",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "aB",
+      "description": "- un bloque con {}",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "at",
+      "description": "- un bloque con etiquetas <>",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "ib",
+      "description": "- un bloque interno con ()",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "iB",
+      "description": "- un bloque interno con {}",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "it",
+      "description": "- bloque interior con etiquetas <>",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - salir del modo visual",
+      "category": "Seleccionar texto (modo visual)"
+    },
+    {
+      "keys": ">",
+      "description": "- mover texto hacia la derecha",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": "<",
+      "description": "- mover texto hacia la izquierda",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": "y",
+      "description": "- copiar texto seleccionado",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": "d",
+      "description": "- eliminar texto seleccionado",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": "~",
+      "description": "- alternar minúsculas/mayúsculas",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": "u",
+      "description": "- cambiar el texto marcado a minúsculas",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": "U",
+      "description": "- cambiar el texto marcado a mayúsculas",
+      "category": "Comandos visuales"
+    },
+    {
+      "keys": ":reg[isters]",
+      "description": "- mostrar el contenido de los registros",
+      "category": "Registros"
+    },
+    {
+      "keys": "\"xy",
+      "description": "- copiar en el registro X",
+      "category": "Registros"
+    },
+    {
+      "keys": "\"xp",
+      "description": "- pegar el contenido del registro X",
+      "category": "Registros"
+    },
+    {
+      "keys": "\"+y",
+      "description": "- copiar en el registro del porta-papeles del sistema",
+      "category": "Registros"
+    },
+    {
+      "keys": "\"+p",
+      "description": "- pegar desde el registro del porta-papeles del sistema",
+      "category": "Registros"
+    },
+    {
+      "keys": ":marks",
+      "description": "- mostrar marcas",
+      "category": "Marcas"
+    },
+    {
+      "keys": "ma",
+      "description": "- definir posición actual para la marca A",
+      "category": "Marcas"
+    },
+    {
+      "keys": "`a",
+      "description": "- saltar a la posición de la marca A",
+      "category": "Marcas"
+    },
+    {
+      "keys": "y`a",
+      "description": "- copiar texto a la posición de la marca A",
+      "category": "Marcas"
+    },
+    {
+      "keys": "`0",
+      "description": "- ir a la posición donde se había salido previamente de Vim",
+      "category": "Marcas"
+    },
+    {
+      "keys": "`\"",
+      "description": "- ir a la posición en la que se editó por última vez este archivo",
+      "category": "Marcas"
+    },
+    {
+      "keys": "`.",
+      "description": "- ir a la posición del último cambio en este archivo",
+      "category": "Marcas"
+    },
+    {
+      "keys": "``",
+      "description": "- ir a la posición antes del último salto",
+      "category": "Marcas"
+    },
+    {
+      "keys": ":ju[mps]",
+      "description": "- lista de saltos",
+      "category": "Marcas"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ i - ir a la nueva posición en la lista de salto",
+      "category": "Marcas"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ o - ir a la posición anterior en la lista de salto",
+      "category": "Marcas"
+    },
+    {
+      "keys": ":changes",
+      "description": "- lista de cambios",
+      "category": "Marcas"
+    },
+    {
+      "keys": "g,",
+      "description": "- ir a la nueva posición en la lista de cambios",
+      "category": "Marcas"
+    },
+    {
+      "keys": "g;",
+      "description": "- ir a la posición anterior en la lista de cambios",
+      "category": "Marcas"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ] - saltar a la etiqueta debajo del cursor",
+      "category": "Marcas"
+    },
+    {
+      "keys": "qa",
+      "description": "- grabar macro a",
+      "category": "Macros"
+    },
+    {
+      "keys": "q",
+      "description": "- detener la grabación de la macro",
+      "category": "Macros"
+    },
+    {
+      "keys": "@a",
+      "description": "- ejecutar macro a",
+      "category": "Macros"
+    },
+    {
+      "keys": "@@",
+      "description": "- reejecutar la última macro",
+      "category": "Macros"
+    },
+    {
+      "keys": "yy",
+      "description": "- copiar una línea",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "2yy",
+      "description": "- copiar dos líneas",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "yw",
+      "description": "- copiar el resto de los caracteres de la palabra desde la posición del cursor hasta el inicio de la siguiente palabra",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "yiw",
+      "description": "- copiar la palabra localizada en la posición del cursor",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "yaw",
+      "description": "- copiar la palabra localizada en la posición del cursor y el espacio detrás de ella o delante",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "y$",
+      "description": "or Y - copiar hasta el final de la línea",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "p",
+      "description": "- pegar antes del cursor",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "P",
+      "description": "- pegar después del cursor",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "gp",
+      "description": "- pegar antes del cursor y mover después del nuevo texto",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "gP",
+      "description": "- pegar después del cursor y mover después del nuevo texto",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "dd",
+      "description": "- cortar una línea",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "2dd",
+      "description": "- cortar dos líneas",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "dw",
+      "description": "- cortar el resto de los caracteres de la palabra desde la posición del cursor hasta el inicio de la siguiente palabra",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "diw",
+      "description": "- cortar la palabra localizada en la posición del cursor",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": "daw",
+      "description": "- cortar la palabra localizada en la posición del cursor y el espacio detrás de ella o delante",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": ":3,5d",
+      "description": "- cortar desde la línea 3 hasta la 5",
+      "category": "Copiar y pegar"
+    },
+    {
+      "keys": ">>",
+      "description": "- sangría (mover a la derecha) línea uno ancho de turno",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "<<",
+      "description": "- desangrar (mover a la izquierda) línea uno ancho de turno",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": ">%",
+      "description": "- sangrar un bloque con () o {} (cursor sobre llave)",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "<%",
+      "description": "- desangrar un bloque con () o {} (cursor sobre llave)",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": ">ib",
+      "description": "- sangrar el bloque interior con ()",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": ">at",
+      "description": "- sangrar un bloque con etiquetas <>",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "3==",
+      "description": "- resangrar 3 líneas",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "=%",
+      "description": "- volver a sangrar un bloque con () o {} (cursor sobre llave)",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "=iB",
+      "description": "- volver a sangrar el bloque interior con {}",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "gg=G",
+      "description": "- volver a sangrar todo el búfer",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": "]p",
+      "description": "- pegar y ajustar la sangría a la línea actual",
+      "category": "Sangría del texto"
+    },
+    {
+      "keys": ":w",
+      "description": "- guardar archivo sin salir",
+      "category": "Salir"
+    },
+    {
+      "keys": ":w",
+      "description": "!sudo tee % - guardar archivo usando sudo",
+      "category": "Salir"
+    },
+    {
+      "keys": ":wq",
+      "description": "or :x or ZZ - guardar archivo y salir",
+      "category": "Salir"
+    },
+    {
+      "keys": ":q",
+      "description": "- salir (no funciona si hay cambios sin guardar)",
+      "category": "Salir"
+    },
+    {
+      "keys": ":q!",
+      "description": "or ZQ - salir descartando los cambios no guardados",
+      "category": "Salir"
+    },
+    {
+      "keys": ":wqa",
+      "description": "- escribir (guardar) y salir en todas las pestañas",
+      "category": "Salir"
+    },
+    {
+      "keys": "/pattern",
+      "description": "- buscar patrón",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": "?pattern",
+      "description": "- buscar patrón hacia atrás",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": "\\vpattern",
+      "description": "- patrón 'muy mágico' (very magic): los caracteres no alfanuméricos son interpretados como caracteres de expresiones regulares (sin necesidad de escaparlos)",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": "n",
+      "description": "- repetir la búsqueda en la misma dirección",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": "N",
+      "description": "- repetir la búsqueda en la dirección contraria",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": ":%s/old/new/g -",
+      "description": "reemplazar en todo el archivo",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": ":%s/old/new/gc -",
+      "description": "reemplazar en todo el archivo pidiendo una confirmación",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": ":noh[lsearch]",
+      "description": "- desactiva el realce (highlight) de los resultados de búsqueda",
+      "category": "Buscar y reemplazar"
+    },
+    {
+      "keys": ":vim[grep] /pattern/ {`{file}`} -",
+      "description": "buscar un patrón en varios archivos",
+      "category": "Buscar en varios archivos"
+    },
+    {
+      "keys": ":tabnew or :tabnew {page.words.file} -",
+      "description": "abrir archivo en una nueva pestaña",
+      "category": "Pestañas"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wT - mover la ventana actual a su propia pestaña",
+      "category": "Pestañas"
+    },
+    {
+      "keys": "gt",
+      "description": "or :tabn[ext] - ir a la pestaña siguiente",
+      "category": "Pestañas"
+    },
+    {
+      "keys": "gT",
+      "description": "or :tabp[revious] - ir a la pestaña anterior",
+      "category": "Pestañas"
+    },
+    {
+      "keys": "#gt",
+      "description": "- ir a la pestaña número #",
+      "category": "Pestañas"
+    },
+    {
+      "keys": ":tabm[ove]",
+      "description": "# - mover a la pestaña actual a la posición número # (desde 0)",
+      "category": "Pestañas"
+    },
+    {
+      "keys": ":tabc[lose]",
+      "description": "- cerrar todas las pestañas y sus ventanas",
+      "category": "Pestañas"
+    },
+    {
+      "keys": ":tabo[nly]",
+      "description": "- cerrar todas las pestañas salvo la actual",
+      "category": "Pestañas"
+    },
+    {
+      "keys": ":tabdo",
+      "description": "command - ejecuta el comando en todas las pestañas (p. ej., :tabdo q - cierra todas las pestañas abiertas)",
+      "category": "Pestañas"
+    },
+    {
+      "keys": ":e[dit]",
+      "description": "archivo - editar un archivo en un nuevo búfer",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":bn[ext] -",
+      "description": "ir al búfer siguiente",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":bp[revious] -",
+      "description": "ir al búfer anterior",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":bd[elete]",
+      "description": "- eliminar búfer (cerrar archivo)",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":b[uffer]#",
+      "description": "- ir a un búfer por #",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":b[uffer]",
+      "description": "file - ir a un búfer por archivo",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":ls",
+      "description": "or :buffers - mostrar todos los búferes abiertos",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":sp[lit]",
+      "description": "archivo - abrir archivo en un nuevo búfer y dividir la ventana",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":vs[plit]",
+      "description": "archivo - abrir archivo en un nuevo búfer y dividir la ventana verticalmente",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":vert[ical]",
+      "description": "ba[ll] - editar todos los búferes como ventanas verticales",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": ":tab",
+      "description": "ba[ll] - editar todos los búferes como pestañas",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ws - dividir ventana",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wv - dividir ventana verticalmente",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ww - cambiar de ventana",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wq - cerrar ventana",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wx - intercambiar la ventana actual con la siguiente",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w= - hacer que todas las ventanas tengan la misma altura y ancho",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wh - mover el cursor a la ventana izquierda (división vertical)",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wl - mover el cursor a la ventana derecha (división vertical)",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wj - mover el cursor a la ventana de abajo (división horizontal)",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wk - mover el cursor a la ventana de arriba (división horizontal)",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wH - extender ancho de la ventana (vertical) hacia la izquierda",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wL - extender ancho de la ventana (vertical) hacia la derecha",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wJ - extender alto de la ventana (horizontal) hacia abajo",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wK - extender alto de la ventana (horizontal) hacia arriba",
+      "category": "Trabajar con varios archivos"
+    },
+    {
+      "keys": "zf",
+      "description": "- definir manualmente un pliegue hasta el movimiento",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "zd",
+      "description": "- eliminar pliegue debajo del cursor",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "za",
+      "description": "- alternar pliegue debajo del cursor",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "zo",
+      "description": "- pliegue abierto debajo del cursor",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "zc",
+      "description": "- cerrar pliegue debajo del cursor",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "zr",
+      "description": "- reducir (abrir) todos los pliegues en un nivel",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "zm",
+      "description": "- doblar más (cerrar) todos los dobleces en un nivel",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "zi",
+      "description": "- alternar la funcionalidad de plegado",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "]c",
+      "description": "- saltar al inicio del próximo cambio",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "[c",
+      "description": "- saltar al inicio del cambio anterior",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "do",
+      "description": "or :diffg[et] - obtener (obtener) diferencia (de otro búfer)",
+      "category": "Diferencia"
+    },
+    {
+      "keys": "dp",
+      "description": "or :diffpu[t] - poner diferencia (a otro búfer)",
+      "category": "Diferencia"
+    },
+    {
+      "keys": ":diffthis",
+      "description": "- hacer que la ventana actual forme parte de diff",
+      "category": "Diferencia"
+    },
+    {
+      "keys": ":dif[fupdate]",
+      "description": "- actualizar diferencias",
+      "category": "Diferencia"
+    },
+    {
+      "keys": ":diffo[ff]",
+      "description": "- desactivar el modo diferencial para la ventana actual",
+      "category": "Diferencia"
+    }
+  ],
+  "lastUpdated": "2025-09-17T05:57:09.502Z"
+}

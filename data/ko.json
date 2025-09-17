@@ -1,0 +1,1105 @@
+{
+  "commands": [
+    {
+      "keys": ":h[elp]",
+      "description": "keyword - 도움말 열기",
+      "category": "일반"
+    },
+    {
+      "keys": ":sav[eas]",
+      "description": "file - 다른 이름으로 저장",
+      "category": "일반"
+    },
+    {
+      "keys": ":clo[se]",
+      "description": "- 현재 창 닫기",
+      "category": "일반"
+    },
+    {
+      "keys": ":ter[minal]",
+      "description": "- 터미널 열기",
+      "category": "일반"
+    },
+    {
+      "keys": "K",
+      "description": "- 커서가 가리키는 단어의 설명글 열기",
+      "category": "일반"
+    },
+    {
+      "keys": "h",
+      "description": "- 왼쪽으로 한 칸 이동",
+      "category": "커서이동"
+    },
+    {
+      "keys": "j",
+      "description": "- 아래로 한 칸 이동",
+      "category": "커서이동"
+    },
+    {
+      "keys": "k",
+      "description": "- 위로 한 칸 이동",
+      "category": "커서이동"
+    },
+    {
+      "keys": "l",
+      "description": "- 오른쪽으로 한 칸 이동",
+      "category": "커서이동"
+    },
+    {
+      "keys": "gj",
+      "description": "- 다음 문장으로 이동 (한 문장이 여러 줄로 나뉘어 있을 경우)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "gk",
+      "description": "- 이전 문장으로 이동 (한 문장이 여러 줄로 나뉘어 있을 경우)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "H",
+      "description": "- 현재화면 상단으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "M",
+      "description": "- 현재화면 중단으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "L",
+      "description": "- 현재화면 하단으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "w",
+      "description": "- 다음 단어 시작으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "W",
+      "description": "- 다음 단어 시작으로 점프 (특수문자 포함)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "e",
+      "description": "- 다음 단어 끝으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "E",
+      "description": "- 다음 단어 끝으로 점프 (특수문자 포함)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "b",
+      "description": "- 이전 단어 시작으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "B",
+      "description": "- 이전 단어 시작으로 점프 (특수문자 포함)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "ge",
+      "description": "- 이전 단어 끝으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "gE",
+      "description": "- 이전 단어 끝으로 점프 (특수문자 포함)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "%",
+      "description": "- 현재 괄호의 짝으로 점프 (:h matchpairs를 통해 더 많은 정보를 얻을 수 있습니다.)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "0",
+      "description": "- 현재 행 시작으로 점프 (공백 포함)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "^",
+      "description": "- 현재 행 시작으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "$",
+      "description": "- 현재 행 끝으로 점프 (공백 포함)",
+      "category": "커서이동"
+    },
+    {
+      "keys": "g_",
+      "description": "- 현재 행 끝으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "gg",
+      "description": "- 문서 첫 줄 시작으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "G",
+      "description": "- 문서 끝 줄 시작으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "5gg",
+      "description": "or 5G - 5번째 행 시작으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "gd",
+      "description": "- 지역변수 선언위치로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "gD",
+      "description": "- 전역변수 선언위치로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "fx",
+      "description": "- 다음 검색 문자 x로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "tx",
+      "description": "- 다음 검색 문자 x 앞에 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Fx",
+      "description": "- 이전 검색 문자 x로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Tx",
+      "description": "- 이전 검색 문자 x 뒤에 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": ";",
+      "description": "- 최근 f/t/F/T 명령어 실행",
+      "category": "커서이동"
+    },
+    {
+      "keys": ",",
+      "description": "- 최근 F/T/f/t 명령어 실행",
+      "category": "커서이동"
+    },
+    {
+      "keys": "}",
+      "description": "- 다음 단락으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "{",
+      "description": "- 이전 단락으로 점프",
+      "category": "커서이동"
+    },
+    {
+      "keys": "zz",
+      "description": "- 화면 위치 중간으로 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "zt",
+      "description": "- 화면 맨 위로 커서 이동",
+      "category": "커서이동"
+    },
+    {
+      "keys": "zb",
+      "description": "- 화면 맨 아래로 커서 이동",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ e - 한 줄 아래로 화면 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ y - 한 줄 위로 화면 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ b - 한 화면 위로 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ f - 한 화면 아래로 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - 반 화면 아래로 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ u - 반 화면 위로 조정",
+      "category": "커서이동"
+    },
+    {
+      "keys": "i",
+      "description": "- 현재 커서 앞에 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "I",
+      "description": "- 현재 커서 행 시작에 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "a",
+      "description": "- 현재 커서 뒤에 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "A",
+      "description": "- 현재 커서 행 끝에 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "o",
+      "description": "- 현재 커서 행 아래에 새 행을 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "O",
+      "description": "- 현재 커서 행 위에 새 행을 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "ea",
+      "description": "- 단어 끝 뒤에 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ h - 이전 문자 제거",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w - 이전 단어 제거",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ j - 한 줄 바꿈",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ t - 한 탭 들여쓰기",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - 한 탭 내어쓰기",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ n - 다음 단어 탐색 (자동완성)",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ p - 이전 단어 탐색 (자동완성)",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ rx - 레지스터 x의 내용 삽입",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ox - 일시적으로 삽입 모드에서 노멀 모드로 이동하여 command x 실행",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - 삽입모드 종료",
+      "category": "삽입 모드"
+    },
+    {
+      "keys": "r",
+      "description": "- 한 글자 바꾸기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "R",
+      "description": "- 한 글자 이상 바꾸기(ESC 누르면 종료)",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "J",
+      "description": "- 현재 행과 다음 행 연결",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "gJ",
+      "description": "- 현재 행과 다음 행 연결 (공백무시)",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "gwip",
+      "description": "- 단락 리플로우",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "g~",
+      "description": "- 커서 이동으로 대·소문자 전환",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "gu",
+      "description": "- 커서 이동으로 소문자 전환",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "gU",
+      "description": "- 커서 이동으로 대문자 전환",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "cc",
+      "description": "- 한 행 전체 새로 쓰기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "c$",
+      "description": "or C - 한 행 끝까지 새로 쓰기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "ciw",
+      "description": "- 한 단어 전체 새로 쓰기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "cw",
+      "description": "or ce - 한 단어 끝까지 새로 쓰기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "s",
+      "description": "- 한 문자 새로 쓰기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "S",
+      "description": "- 한 행 전체 새로 쓰기 (cc와 동일)",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "xp",
+      "description": "- 잘라내고 붙여넣기",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "u",
+      "description": "- 실행취소",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "U",
+      "description": "- 최근 수정한 줄 복원(실행취소)",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ r - 다시실행",
+      "category": "편집 모드"
+    },
+    {
+      "keys": ".",
+      "description": "- 최근 명령어 반복",
+      "category": "편집 모드"
+    },
+    {
+      "keys": "v",
+      "description": "- 비주얼 모드",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "V",
+      "description": "- 비주얼 라인",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "o",
+      "description": "- 선택 영역 반대쪽 끝으로 점프",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ v - 비주얼 블록",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "O",
+      "description": "- 블록의 반대쪽 모서리로 이동",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "aw",
+      "description": "- 단어 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "ab",
+      "description": "- 소괄호() 구간 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "aB",
+      "description": "- 중괄호{} 구간 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "at",
+      "description": "- 태그<> 구간 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "ib",
+      "description": "- 소괄호() 내부 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "iB",
+      "description": "- 중괄호{} 내부 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "it",
+      "description": "- 태그<> 내부 선택",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - 선택 모드 종료",
+      "category": "선택 모드 (비주얼 모드)"
+    },
+    {
+      "keys": ">",
+      "description": "- 선택 행 들여쓰기",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": "<",
+      "description": "- 선택 행 내어쓰기",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": "y",
+      "description": "- 선택 구간 복사",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": "d",
+      "description": "- 선택 구간 삭제",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": "~",
+      "description": "- 대소문자 반전",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": "u",
+      "description": "- 선택 구간 소문자 전환",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": "U",
+      "description": "- 선택 구간 대문자 전환",
+      "category": "선택 모드 명령"
+    },
+    {
+      "keys": ":reg[isters]",
+      "description": "- 레지스터 내용 확인",
+      "category": "레지스터"
+    },
+    {
+      "keys": "\"xy",
+      "description": "- 레지스터 x 복사",
+      "category": "레지스터"
+    },
+    {
+      "keys": "\"xp",
+      "description": "- 레지스터 x 붙여넣기",
+      "category": "레지스터"
+    },
+    {
+      "keys": "\"+y",
+      "description": "- 클립보드 복사",
+      "category": "레지스터"
+    },
+    {
+      "keys": "\"+p",
+      "description": "- 클립보드 붙여넣기",
+      "category": "레지스터"
+    },
+    {
+      "keys": ":marks",
+      "description": "- 마킹 항목 표시",
+      "category": "마킹"
+    },
+    {
+      "keys": "ma",
+      "description": "- 현재 위치를 a로 마킹",
+      "category": "마킹"
+    },
+    {
+      "keys": "`a",
+      "description": "- 마크 a로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "y`a",
+      "description": "- 마크 a까지 복사",
+      "category": "마킹"
+    },
+    {
+      "keys": "`0",
+      "description": "- 종료 전 커서위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "`\"",
+      "description": "- 최근 편집한 커서 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "`.",
+      "description": "- 최근 변경한 커서 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "``",
+      "description": "- 최근 점프 전 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": ":ju[mps]",
+      "description": "- 점프목록",
+      "category": "마킹"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ i - 이전 점프목록 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ o - 다음 점프목록 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": ":changes",
+      "description": "- 변경목록",
+      "category": "마킹"
+    },
+    {
+      "keys": "g,",
+      "description": "- 이전 변경목록 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "g;",
+      "description": "- 다음 변경목록 위치로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ] - 커서가 가리키는 태그로 점프",
+      "category": "마킹"
+    },
+    {
+      "keys": "qa",
+      "description": "- 매크로 a 기록 시작",
+      "category": "매크로"
+    },
+    {
+      "keys": "q",
+      "description": "- 매크로 기록 중지",
+      "category": "매크로"
+    },
+    {
+      "keys": "@a",
+      "description": "- 매크로 a 실행",
+      "category": "매크로"
+    },
+    {
+      "keys": "@@",
+      "description": "- 최근 매크로 재실행",
+      "category": "매크로"
+    },
+    {
+      "keys": "yy",
+      "description": "- 한 행 복사하기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "2yy",
+      "description": "- 2줄 복사하기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "yw",
+      "description": "- 다음 단어까지 복사하기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "yiw",
+      "description": "- 한 단어 복사하기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "yaw",
+      "description": "- 한 단어 복사하기 (공백포함)",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "y$",
+      "description": "or Y - 한 행 끝까지 복사하기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "p",
+      "description": "- 커서 뒤에 붙여넣기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "P",
+      "description": "- 커서 앞에 붙여넣기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "gp",
+      "description": "- 커서 뒤에 붙여넣고 붙여넣은 행 다음으로 커서 옮기기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "gP",
+      "description": "- 커서 앞에 붙여넣고 붙여넣은 행 다음으로 커서 옮기기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "dd",
+      "description": "- 한 행 잘라내기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "2dd",
+      "description": "- 2줄 잘라내기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "dw",
+      "description": "- 다음 단어까지 잘라내기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "diw",
+      "description": "- 한 단어 잘라내기",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": "daw",
+      "description": "- 한 단어 잘라내기 (공백포함)",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": ":3,5d",
+      "description": "- 3행 부터 5행 까지 삭제",
+      "category": "잘라내기와 붙여넣기"
+    },
+    {
+      "keys": ">>",
+      "description": "- 한 탭 들여쓰기",
+      "category": "문단모양"
+    },
+    {
+      "keys": "<<",
+      "description": "- 한 탭 내어쓰기",
+      "category": "문단모양"
+    },
+    {
+      "keys": ">%",
+      "description": "- 중·소괄호 구간 들여쓰기",
+      "category": "문단모양"
+    },
+    {
+      "keys": "<%",
+      "description": "- 중·소괄호 구간 내어쓰기",
+      "category": "문단모양"
+    },
+    {
+      "keys": ">ib",
+      "description": "- 소괄호 내부 들여쓰기",
+      "category": "문단모양"
+    },
+    {
+      "keys": ">at",
+      "description": "- 태그 구간 들여쓰기",
+      "category": "문단모양"
+    },
+    {
+      "keys": "3==",
+      "description": "- 3줄 자동정렬",
+      "category": "문단모양"
+    },
+    {
+      "keys": "=%",
+      "description": "- 중·소괄호 구간 자동정렬",
+      "category": "문단모양"
+    },
+    {
+      "keys": "=iB",
+      "description": "- 중괄호 내부 자동정렬",
+      "category": "문단모양"
+    },
+    {
+      "keys": "gg=G",
+      "description": "- 전체 버퍼 자동정렬",
+      "category": "문단모양"
+    },
+    {
+      "keys": "]p",
+      "description": "- 붙여쓰고 현재 행 들여쓰기 조",
+      "category": "문단모양"
+    },
+    {
+      "keys": ":w",
+      "description": "- 저장하기",
+      "category": "나가기"
+    },
+    {
+      "keys": ":w",
+      "description": "!sudo tee % - 관리자로 저장하기",
+      "category": "나가기"
+    },
+    {
+      "keys": ":wq",
+      "description": "or :x or ZZ - 저장하고 나가기",
+      "category": "나가기"
+    },
+    {
+      "keys": ":q",
+      "description": "- 나가기 (변경확인)",
+      "category": "나가기"
+    },
+    {
+      "keys": ":q!",
+      "description": "or ZQ - 나가기 (변경무시)",
+      "category": "나가기"
+    },
+    {
+      "keys": ":wqa",
+      "description": "- 모든 탭 저장하고 나가기",
+      "category": "나가기"
+    },
+    {
+      "keys": "/pattern",
+      "description": "- 패턴 검색 (순방향)",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": "?pattern",
+      "description": "- 패턴 검색 (역방향)",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": "\\vpattern",
+      "description": "- 특수 매직 패턴",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": "n",
+      "description": "- 다음 검색항목으로 점프",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": "N",
+      "description": "- 이전 검색항목으로 점프",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": ":%s/old/new/g -",
+      "description": "모든 old를 new로 바꾸기",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": ":%s/old/new/gc -",
+      "description": "모든 old를 new로 확인하며 바꾸기",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": ":noh[lsearch]",
+      "description": "- 검색 하이라이트 제거",
+      "category": "검색과 바꾸기"
+    },
+    {
+      "keys": ":vim[grep] /pattern/ {`{file}`} -",
+      "description": "여러 파일에서 패턴 검색",
+      "category": "여러 파일 검색"
+    },
+    {
+      "keys": ":tabnew or :tabnew {page.words.file} -",
+      "description": "새 탭에서 파일 열기",
+      "category": "탭"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wT - 현재 분할 창을 새로운 탭으로 이동",
+      "category": "탭"
+    },
+    {
+      "keys": "gt",
+      "description": "or :tabn[ext] - 다음 탭으로 이동",
+      "category": "탭"
+    },
+    {
+      "keys": "gT",
+      "description": "or :tabp[revious] - 이전 탭으로 이동",
+      "category": "탭"
+    },
+    {
+      "keys": "#gt",
+      "description": "- #번째 탭으로 이동",
+      "category": "탭"
+    },
+    {
+      "keys": ":tabm[ove]",
+      "description": "# - 현재 탭을 #번째로 이동",
+      "category": "탭"
+    },
+    {
+      "keys": ":tabc[lose]",
+      "description": "- 현재 탭과 그 안의 창들 닫기",
+      "category": "탭"
+    },
+    {
+      "keys": ":tabo[nly]",
+      "description": "- 현재 탭 이외의 모든 탭 닫기",
+      "category": "탭"
+    },
+    {
+      "keys": ":tabdo",
+      "description": "command - 모든 탭에서 command 실행하기 (예를 들어, :tabdo q - 열린 모든 탭 닫기)",
+      "category": "탭"
+    },
+    {
+      "keys": ":e[dit]",
+      "description": "file - 새 버퍼에서 파일 편집",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":bn[ext] -",
+      "description": "다음 버퍼로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":bp[revious] -",
+      "description": "이전 버퍼로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":bd[elete]",
+      "description": "- 버퍼 삭제 (파일 닫기)",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":b[uffer]#",
+      "description": "- #번째 버퍼로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":b[uffer]",
+      "description": "file - 파일명 버퍼로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":ls",
+      "description": "or :buffers - 열린 버퍼 모두 나열",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":sp[lit]",
+      "description": "file - 새 버퍼에 파일 열고 상하로 창 분할",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":vs[plit]",
+      "description": "file - 새 버퍼에 파일 열고 좌우로 창 분할",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":vert[ical]",
+      "description": "ba[ll] - 모든 버퍼 열고 좌우로 창 분할",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": ":tab",
+      "description": "ba[ll] - 모든 버퍼 열고 탭으로 창 분할",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ws - 상하로 창 분할",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wv - 좌우로 창 분할",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ww - 창 전환",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wq - 창 닫기",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wx - 창 바꾸기",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w= - 모든 창 크기 조정",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wh - 왼쪽 창으로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wl - 오른쪽 창으로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wj - 아래 창으로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wk - 위 창으로 이동",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wH - 현재 창을 최대 높이인 상태로 왼쪽 이동(가장 왼쪽)",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wL - 현재 창을 최대 높이인 상태로 오른쪽 이동(가장 오른쪽)",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wJ - 현재 창을 최대 너비인 상태로 아래로 이동(가장 아래쪽",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wK - 현재 창을 최대 너비인 상태로 위로 이동(가장 위쪽)",
+      "category": "여러 파일 작업"
+    },
+    {
+      "keys": "zf",
+      "description": "- 폴딩 정의",
+      "category": "비교"
+    },
+    {
+      "keys": "zd",
+      "description": "- 폴드 제거",
+      "category": "비교"
+    },
+    {
+      "keys": "za",
+      "description": "- 폴드 설정",
+      "category": "비교"
+    },
+    {
+      "keys": "zo",
+      "description": "- 폴드 열기",
+      "category": "비교"
+    },
+    {
+      "keys": "zc",
+      "description": "- 폴드 닫기",
+      "category": "비교"
+    },
+    {
+      "keys": "zr",
+      "description": "- 한 단계씩 폴드 열기",
+      "category": "비교"
+    },
+    {
+      "keys": "zm",
+      "description": "- 한 단계씩 폴드 접기",
+      "category": "비교"
+    },
+    {
+      "keys": "zi",
+      "description": "- 스마트 폴딩",
+      "category": "비교"
+    },
+    {
+      "keys": "]c",
+      "description": "- 다음 수정으로 점프",
+      "category": "비교"
+    },
+    {
+      "keys": "[c",
+      "description": "- 이전 수정으로 점프",
+      "category": "비교"
+    },
+    {
+      "keys": "do",
+      "description": "or :diffg[et] - 다른 버퍼에서 차이점 얻기",
+      "category": "비교"
+    },
+    {
+      "keys": "dp",
+      "description": "or :diffpu[t] - 다른 버퍼로 차이점 보내기",
+      "category": "비교"
+    },
+    {
+      "keys": ":diffthis",
+      "description": "- 현재 창 비교모드 열기",
+      "category": "비교"
+    },
+    {
+      "keys": ":dif[fupdate]",
+      "description": "- 비교모드 새로고침",
+      "category": "비교"
+    },
+    {
+      "keys": ":diffo[ff]",
+      "description": "- 현재 창 비교모드 닫가",
+      "category": "비교"
+    }
+  ],
+  "lastUpdated": "2025-09-17T05:57:07.339Z"
+}

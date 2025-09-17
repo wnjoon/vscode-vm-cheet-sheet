@@ -1,0 +1,1105 @@
+{
+  "commands": [
+    {
+      "keys": ":h[elp]",
+      "description": "keyword - 「keyword」のヘルプを開く",
+      "category": "全般"
+    },
+    {
+      "keys": ":sav[eas]",
+      "description": "file - 名前を付けて保存",
+      "category": "全般"
+    },
+    {
+      "keys": ":clo[se]",
+      "description": "- 現在のペインを閉じる",
+      "category": "全般"
+    },
+    {
+      "keys": ":ter[minal]",
+      "description": "- ターミナルウインドウを開く",
+      "category": "全般"
+    },
+    {
+      "keys": "K",
+      "description": "- カーソル下の単語の man ページを開く",
+      "category": "全般"
+    },
+    {
+      "keys": "h",
+      "description": "- 左に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "j",
+      "description": "- 下に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "k",
+      "description": "- 上に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "l",
+      "description": "- 右に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "gj",
+      "description": "- 表示行で1行下に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "gk",
+      "description": "- 表示行で1行上に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "H",
+      "description": "- 画面上部に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "M",
+      "description": "- 画面中央に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "L",
+      "description": "- 画面下部に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "w",
+      "description": "- 次の単語の先頭に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "W",
+      "description": "- 次の（区切り文字を含む）単語の先頭に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "e",
+      "description": "- 次の単語の末尾に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "E",
+      "description": "- 次の（区切り文字を含む）単語の末尾に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "b",
+      "description": "- 前の単語の先頭に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "B",
+      "description": "- 前の（区切り文字を含む）単語の先頭に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "ge",
+      "description": "- 前の単語の末尾に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "gE",
+      "description": "- 前の（区切り文字を含む）単語の末尾に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "%",
+      "description": "- 対応するカッコに移動（標準でサポートしている組み合わせは: '()', '{}', '[]' - 詳細は :h matchpairs を参照）",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "0",
+      "description": "- 行頭に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "^",
+      "description": "- その行で最初の非空白文字に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "$",
+      "description": "- 行末に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "g_",
+      "description": "- その行で最後の非空白文字に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "gg",
+      "description": "- ドキュメントの先頭行に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "G",
+      "description": "- ドキュメントの末尾行に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "5gg",
+      "description": "or 5G - 5行目に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "gd",
+      "description": "- カーソル位置の語の定義を関数内で探して移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "gD",
+      "description": "- カーソル位置の語の定義をファイル全体で探して移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "fx",
+      "description": "- 次にある文字「x」の手前に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "tx",
+      "description": "- 次にある文字「x」の 1 つ手前に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Fx",
+      "description": "- 前にある文字「x」の手前に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Tx",
+      "description": "- 前にある文字「x」の 1 つ後ろに移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": ";",
+      "description": "- 直前の f, t, F, T を繰り返し",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": ",",
+      "description": "- 直前の f, t, F, T を反対にして繰り返し",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "}",
+      "description": "- 次の段落に移動（コード編集中の場合は関数/ブロック）",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "{",
+      "description": "- 前の段落に移動（コード編集中の場合は関数/ブロック）",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "zz",
+      "description": "- カーソル位置を画面中央に",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "zt",
+      "description": "- position cursor on top of the screen",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "zb",
+      "description": "- position cursor on bottom of the screen",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ e - 画面を下に 1 行スクロール（カーソル移動なし）",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ y - 画面を上に 1 行スクロール（カーソル移動なし）",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ b - 画面全体分だけ上に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ f - 画面全体分だけ下に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - 画面半分だけ下に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ u - 画面半分だけ上に移動",
+      "category": "カーソル移動"
+    },
+    {
+      "keys": "i",
+      "description": "- カーソル位置で挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "I",
+      "description": "- その行頭で挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "a",
+      "description": "- カーソルの次の位置で挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "A",
+      "description": "- その行末で挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "o",
+      "description": "- 下に改行してそこで挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "O",
+      "description": "- 上に改行してそこで挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "ea",
+      "description": "- その単語の末尾で挿入モード",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ h - 挿入モード中に手前の文字を消去",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w - 挿入モード中に手前の単語を消去",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ j - 挿入モード中に改行",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ t - 挿入モード中にその行を（右に）字下げ",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ d - 挿入モード中にその行を（左に）字上げ",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ n - 挿入モード中にカーソルの手前側へ次の候補を挿入（自動補完）",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ p - 挿入モード中にカーソルの後ろ側へ前の候補を挿入（自動補完）",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ rx - レジスタxの内容を挿入",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ox - 挿入モードからノーマルモードに一時的に移動してコマンドxを実行",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - 挿入モードを終了",
+      "category": "挿入モード - テキストを挿入/追加"
+    },
+    {
+      "keys": "r",
+      "description": "- 文字を 1 つだけ置き換え",
+      "category": "編集"
+    },
+    {
+      "keys": "R",
+      "description": "- ESCが押されるまで1つ以上の文字を置き換え",
+      "category": "編集"
+    },
+    {
+      "keys": "J",
+      "description": "- スペースを 1 つ加えて下の行を現在の行に連結",
+      "category": "編集"
+    },
+    {
+      "keys": "gJ",
+      "description": "- スペースなしで現在の行に下の行を連結",
+      "category": "編集"
+    },
+    {
+      "keys": "gwip",
+      "description": "- 段落をすべて連結",
+      "category": "編集"
+    },
+    {
+      "keys": "g~",
+      "description": "- モーション範囲の大文字小文字を切り替え",
+      "category": "編集"
+    },
+    {
+      "keys": "gu",
+      "description": "- モーション範囲を小文字に",
+      "category": "編集"
+    },
+    {
+      "keys": "gU",
+      "description": "- モーション範囲を大文字に",
+      "category": "編集"
+    },
+    {
+      "keys": "cc",
+      "description": "- 現在の行を消去して挿入モード",
+      "category": "編集"
+    },
+    {
+      "keys": "c$",
+      "description": "or C - カーソル位置から行末までを消去して挿入モード",
+      "category": "編集"
+    },
+    {
+      "keys": "ciw",
+      "description": "- 単語を全て消去して挿入モード",
+      "category": "編集"
+    },
+    {
+      "keys": "cw",
+      "description": "or ce - 単語をカーソル位置から末尾まで消去して挿入モード",
+      "category": "編集"
+    },
+    {
+      "keys": "s",
+      "description": "- カーソル位置の文字を消去して挿入モード",
+      "category": "編集"
+    },
+    {
+      "keys": "S",
+      "description": "- 現在の行を消去して挿入モード（ccと同じ）",
+      "category": "編集"
+    },
+    {
+      "keys": "xp",
+      "description": "- 二文字の入れ替え（カットしてペースト）",
+      "category": "編集"
+    },
+    {
+      "keys": "u",
+      "description": "- 取り消し（アンドゥ）",
+      "category": "編集"
+    },
+    {
+      "keys": "U",
+      "description": "- 最後に変更した行を取り消し（アンドゥ）",
+      "category": "編集"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ r - やり直し（リドゥ）",
+      "category": "編集"
+    },
+    {
+      "keys": ".",
+      "description": "- 最後に使ったコマンドを繰り返し",
+      "category": "編集"
+    },
+    {
+      "keys": "v",
+      "description": "- ビジュアルモード開始。これで選択してからコマンド（Y - ヤンクなど）を実行",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "V",
+      "description": "- 行単位のビジュアルモード",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "o",
+      "description": "- 選択範囲の反対側に移動",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ v - 矩形ビジュアル",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "O",
+      "description": "- 矩形の反対側の角に移動",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "aw",
+      "description": "- 単語を選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "ab",
+      "description": "- () のブロックを選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "aB",
+      "description": "- {} のブロックを選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "at",
+      "description": "- <> タグのブロックを選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "ib",
+      "description": "- () ブロックの括弧を除いた内側を選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "iB",
+      "description": "- {} ブロックの括弧を除いた内側を選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "it",
+      "description": "- <> タグのブロックの括弧を除いた内側を選択",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": "Esc",
+      "description": "or Ctrl + c - ビジュアルモード終了",
+      "category": "テキスト選択（ビジュアルモード）"
+    },
+    {
+      "keys": ">",
+      "description": "- 選択範囲を右に",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": "<",
+      "description": "- 選択範囲を左に",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": "y",
+      "description": "- 選択範囲をヤンク（コピー）",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": "d",
+      "description": "- 選択範囲を消去",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": "~",
+      "description": "- 大文字と小文字を入れ替え",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": "u",
+      "description": "- 選択範囲を小文字に",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": "U",
+      "description": "- 選択範囲を大文字に",
+      "category": "ビジュアルモードでのコマンド"
+    },
+    {
+      "keys": ":reg[isters]",
+      "description": "- レジスタの内容を表示",
+      "category": "レジスタ"
+    },
+    {
+      "keys": "\"xy",
+      "description": "- レジスタ x へヤンク",
+      "category": "レジスタ"
+    },
+    {
+      "keys": "\"xp",
+      "description": "- レジスタ x からペースト",
+      "category": "レジスタ"
+    },
+    {
+      "keys": "\"+y",
+      "description": "- システムクリップボードレジスタへヤンク",
+      "category": "レジスタ"
+    },
+    {
+      "keys": "\"+p",
+      "description": "- システムクリップボードレジスタからペースト",
+      "category": "レジスタ"
+    },
+    {
+      "keys": ":marks",
+      "description": "- マークリスト",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "ma",
+      "description": "- 現在の位置をマーク「a」に設定",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "`a",
+      "description": "- マーク「a」に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "y`a",
+      "description": "- マーク「a」の位置をヤンク",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "`0",
+      "description": "- Vim が以前終了したときの位置に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "`\"",
+      "description": "- このファイルを最後に編集した位置に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "`.",
+      "description": "- このファイルの最後の変更に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "``",
+      "description": "- 最後にジャンプした位置の手前に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": ":ju[mps]",
+      "description": "- ジャンプのリスト",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ i - ジャンプリスト内の新しい方の位置に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ o - ジャンプリスト内の古い方の位置に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": ":changes",
+      "description": "- 変更リスト",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "g,",
+      "description": "- 変更リスト内の新しい方の位置に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "g;",
+      "description": "- 変更リスト内の古い方の位置に移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ] - カーソル下の単語のタグへ移動",
+      "category": "マークと位置"
+    },
+    {
+      "keys": "qa",
+      "description": "- マクロ「a」を記録開始",
+      "category": "マクロ"
+    },
+    {
+      "keys": "q",
+      "description": "- マクロの記録を停止",
+      "category": "マクロ"
+    },
+    {
+      "keys": "@a",
+      "description": "- マクロ「a」を実行",
+      "category": "マクロ"
+    },
+    {
+      "keys": "@@",
+      "description": "- 最後に実行したマクロを再実行",
+      "category": "マクロ"
+    },
+    {
+      "keys": "yy",
+      "description": "- 行をヤンク（コピー）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "2yy",
+      "description": "- 2 行をヤンク（コピー）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "yw",
+      "description": "- 次の単語の始まりまでをヤンク（コピー）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "yiw",
+      "description": "- その単語全体をヤンク（コピー）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "yaw",
+      "description": "- その単語全体と前後のスペースをヤンク（コピー）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "y$",
+      "description": "or Y - 行末までヤンク",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "p",
+      "description": "- カーソル位置の 1 つ後ろにペースト",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "P",
+      "description": "- カーソル位置の手前にペースト",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "gp",
+      "description": "- カーソルの位置の後にペーストしてカーソル位置を新たなテキストの後に",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "gP",
+      "description": "- カーソルの位置の前にペーストしてカーソル位置を新たなテキストの後に",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "dd",
+      "description": "- 行を消去（カット）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "2dd",
+      "description": "- 2 行を消去（カット）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "dw",
+      "description": "- 次の単語の始まりまでを消去（カット）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "diw",
+      "description": "- その単語全体を消去（カット）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": "daw",
+      "description": "- その単語全体と前後のスペースを消去（カット）",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": ":3,5d",
+      "description": "- delete lines starting from 3 to 5",
+      "category": "カットとペースト"
+    },
+    {
+      "keys": ">>",
+      "description": "- その行を（右に）字下げ",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "<<",
+      "description": "- その行を（左に）字上げ",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": ">%",
+      "description": "- () や {} のブロックを字下げ（カーソルが括弧にあるとき)",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "<%",
+      "description": "- de-indent a block with () or {} (cursor on brace)",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": ">ib",
+      "description": "- () のブロックの内側を字下げ",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": ">at",
+      "description": "- <> タグのブロックを字下げ",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "3==",
+      "description": "- 3 行を再インデント",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "=%",
+      "description": "- () や {} のブロックを再字下げ（カーソルが括弧にあるとき)",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "=iB",
+      "description": "- {} のブロックの内側を再字下げ",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "gg=G",
+      "description": "- バッファ全体を再字下げ",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": "]p",
+      "description": "- ペーストして現在の行にインデントを揃える",
+      "category": "テキストインデント"
+    },
+    {
+      "keys": ":w",
+      "description": "- 終了せずにファイルに書き込み（保存）",
+      "category": "終了"
+    },
+    {
+      "keys": ":w",
+      "description": "!sudo tee % - sudo を使って現在のファイルに書き込み",
+      "category": "終了"
+    },
+    {
+      "keys": ":wq",
+      "description": "or :x or ZZ - 書き込み（保存）して終了",
+      "category": "終了"
+    },
+    {
+      "keys": ":q",
+      "description": "- 終了（未保存の変更があると失敗する）",
+      "category": "終了"
+    },
+    {
+      "keys": ":q!",
+      "description": "or ZQ - 未保存の変更を破棄して終了",
+      "category": "終了"
+    },
+    {
+      "keys": ":wqa",
+      "description": "- 全てのタブを書き込み（保存）して終了",
+      "category": "終了"
+    },
+    {
+      "keys": "/pattern",
+      "description": "- pattern のパターンを検索",
+      "category": "検索と置換"
+    },
+    {
+      "keys": "?pattern",
+      "description": "- ?pattern のパターンを逆方向に検索",
+      "category": "検索と置換"
+    },
+    {
+      "keys": "\\vpattern",
+      "description": "- 'very magic' パターン: 非英数字を特別な正規表現文字として扱う（エスケープ不要）",
+      "category": "検索と置換"
+    },
+    {
+      "keys": "n",
+      "description": "- 順方向に再検索",
+      "category": "検索と置換"
+    },
+    {
+      "keys": "N",
+      "description": "- 逆方向に再検索",
+      "category": "検索と置換"
+    },
+    {
+      "keys": ":%s/old/new/g -",
+      "description": "すべての old を new に置換",
+      "category": "検索と置換"
+    },
+    {
+      "keys": ":%s/old/new/gc -",
+      "description": "すべての old を new に確認しながら置換",
+      "category": "検索と置換"
+    },
+    {
+      "keys": ":noh[lsearch]",
+      "description": "- 検索結果のハイライトを無効化",
+      "category": "検索と置換"
+    },
+    {
+      "keys": ":vim[grep] /pattern/ {`{file}`} -",
+      "description": "複数ファイルで pattern を検索",
+      "category": "複数ファイルを検索"
+    },
+    {
+      "keys": ":tabnew or :tabnew {page.words.file} -",
+      "description": "ファイルを新しいタブで開く",
+      "category": "タブ"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wT - 分割ウィンドウをそのタブに移動",
+      "category": "タブ"
+    },
+    {
+      "keys": "gt",
+      "description": "or :tabn[ext] - 次のタブに移動",
+      "category": "タブ"
+    },
+    {
+      "keys": "gT",
+      "description": "or :tabp[revious] - 前のタブに移動",
+      "category": "タブ"
+    },
+    {
+      "keys": "#gt",
+      "description": "- # 番目のタブに移動",
+      "category": "タブ"
+    },
+    {
+      "keys": ":tabm[ove]",
+      "description": "# - 現在のタブを # 番目に移動（0 始まり）",
+      "category": "タブ"
+    },
+    {
+      "keys": ":tabc[lose]",
+      "description": "- 現在のタブを閉じる",
+      "category": "タブ"
+    },
+    {
+      "keys": ":tabo[nly]",
+      "description": "- 現在以外のタブを閉じる",
+      "category": "タブ"
+    },
+    {
+      "keys": ":tabdo",
+      "description": "command - 全てのタブで command を実行（例: :tabdo q - は全てのタブを閉じる）",
+      "category": "タブ"
+    },
+    {
+      "keys": ":e[dit]",
+      "description": "file - 新しいバッファでファイルを編集",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":bn[ext] -",
+      "description": "次のバッファに移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":bp[revious] -",
+      "description": "前のバッファに移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":bd[elete]",
+      "description": "- バッファを消去（ファイルを閉じる）",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":b[uffer]#",
+      "description": "- # 番目のバッファに移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":b[uffer]",
+      "description": "file - file という名前のバッファに移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":ls",
+      "description": "or :buffers - バッファのリストを開く",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":sp[lit]",
+      "description": "file - 新しいバッファの水平分割ウィンドウでファイルを開く",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":vs[plit]",
+      "description": "file - 新しいバッファの垂直分割ウィンドウでファイルを開く",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":vert[ical]",
+      "description": "ba[ll] - 全てのバッファを垂直分割ウインドウにして編集",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": ":tab",
+      "description": "ba[ll] - 全てのバッファをタブにして編集",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ws - ウィンドウ分割",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wv - ウィンドウ垂直分割",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ ww - ウィンドウ切り替え",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wq - ウィンドウ終了",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wx - 現在のウインドウを次のウインドウと入れ替え",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ w= - 全てのウインドウを同じ高さと幅に",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wh - 右のウィンドウ（垂直分割）にカーソル移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wl - 左のウィンドウ（垂直分割）にカーソル移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wj - 下のウィンドウ（水平分割）にカーソル移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wk - 上のウィンドウ（水平分割）にカーソル移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wH - 現在のウィンドウの高さを最大化して最も左側に移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wL - 現在のウィンドウの高さを最大化して最も右側に移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wJ - 現在のウィンドウの幅を最大化して最も下側に移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "Ctrl",
+      "description": "+ wK - 現在のウィンドウの幅を最大化して最も上側に移動",
+      "category": "複数のファイルでの作業"
+    },
+    {
+      "keys": "zf",
+      "description": "- モーション範囲での折りたたみを手動定義",
+      "category": "差分"
+    },
+    {
+      "keys": "zd",
+      "description": "- カーソル下の折りたたみを消去",
+      "category": "差分"
+    },
+    {
+      "keys": "za",
+      "description": "- カーソル下の折りたたみを切り替え",
+      "category": "差分"
+    },
+    {
+      "keys": "zo",
+      "description": "- カーソル下の折りたたみを開く",
+      "category": "差分"
+    },
+    {
+      "keys": "zc",
+      "description": "- カーソル下の折りたたみを閉じる",
+      "category": "差分"
+    },
+    {
+      "keys": "zr",
+      "description": "- 全ての折りたたみを 1 段階減らす（開く）",
+      "category": "差分"
+    },
+    {
+      "keys": "zm",
+      "description": "- 全ての折りたたみを 1 段階折りたたむ（閉じる）",
+      "category": "差分"
+    },
+    {
+      "keys": "zi",
+      "description": "- 全ての折りたたみを切り替え",
+      "category": "差分"
+    },
+    {
+      "keys": "]c",
+      "description": "- 次の変更点の始端に移動",
+      "category": "差分"
+    },
+    {
+      "keys": "[c",
+      "description": "- 前の変更点の始端に移動",
+      "category": "差分"
+    },
+    {
+      "keys": "do",
+      "description": "or :diffg[et] - （他のバッファから）差分を取得する",
+      "category": "差分"
+    },
+    {
+      "keys": "dp",
+      "description": "or :diffpu[t] - （他のバッファへ）差分を送り込む",
+      "category": "差分"
+    },
+    {
+      "keys": ":diffthis",
+      "description": "- 現在のウインドウを差分モードのひとつに",
+      "category": "差分"
+    },
+    {
+      "keys": ":dif[fupdate]",
+      "description": "- 差分情報を更新",
+      "category": "差分"
+    },
+    {
+      "keys": ":diffo[ff]",
+      "description": "- 現在のウインドウの差分モードを無効化",
+      "category": "差分"
+    }
+  ],
+  "lastUpdated": "2025-09-17T05:57:08.772Z"
+}
